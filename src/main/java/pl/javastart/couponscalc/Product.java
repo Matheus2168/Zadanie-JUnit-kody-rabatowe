@@ -1,5 +1,7 @@
 package pl.javastart.couponscalc;
 
+import java.util.Objects;
+
 public class Product {
 
     private final String name;
@@ -23,5 +25,6 @@ public class Product {
     public Category getCategory() {
         return category;
     }
+
 
 }
